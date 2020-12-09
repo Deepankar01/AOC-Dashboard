@@ -1,22 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Bubble } from "react-chartjs-2";
+import styled from "styled-components";
+
+const Heading = styled.div`
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+`;
 
 function random_rgba() {
-  const o = Math.round,
-    r = Math.random,
-    s = 255;
-  return (
-    "rgba(" +
-    o(r() * s) +
-    "," +
-    o(r() * s) +
-    "," +
-    o(r() * s) +
-    "," +
-    r().toFixed(1) +
-    ")"
-  );
+  var letters = "012345".split("");
+  var color = "#";
+  color += letters[Math.round(Math.random() * 5)];
+  letters = "0123456789ABCDEF".split("");
+  for (var i = 0; i < 5; i++) {
+    color += letters[Math.round(Math.random() * 15)];
+  }
+  return color;
 }
 
 const ScoringTimeDaySlotBubble = ({ data }) => {
@@ -49,7 +49,6 @@ const ScoringTimeDaySlotBubble = ({ data }) => {
     };
     datasets.push(dataset);
   }
-  console.log(datasets[0]);
   const chartData = {
     datasets: datasets,
   };
@@ -80,7 +79,7 @@ const ScoringTimeDaySlotBubble = ({ data }) => {
   };
   return (
     <div>
-      Timing
+      <Heading>Timings</Heading>
       <Bubble data={chartData} options={options} />
     </div>
   );

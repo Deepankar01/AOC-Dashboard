@@ -17,36 +17,8 @@ const get_day_group = (x_y_split) => {
       .map((_, i) => i + 1)
       .forEach((item) => (time_group[item] = 0));
 
-    // const get_difference = (item2) => {
-    //   const difference = {};
-    //   Array(24)
-    //     .fill(0)
-    //     .map((_, i) => i + 1)
-    //     .forEach(
-    //       (item, index) =>
-    //         (difference[item] = moment(item2, "HH:mm:ss").diff(
-    //           moment(`${index}:00:00`, "HH:mm:ss")
-    //         ))
-    //     );
-    //   return difference;
-    // };
-
     value.forEach((item) => {
       let time_slot = item.split(":")[0];
-      //   const differences = get_difference(item);
-      //   debugger;
-
-      //   if (differences.with00 >= 0 && differences.with1029am <= 0) {
-      //     time_slot = "morning 12-10:30am";
-      //   } else if (differences.with1030am >= 0 && differences.with1159am <= 0) {
-      //     time_slot = "afternoon 10:30am-12:00";
-      //   } else if (differences.with1200 >= 0 && differences.with100pm <= 0) {
-      //     time_slot = "afternoon 12:00am-12:00";
-      //   } else if (differences.with3pm >= 0 && differences.with759pm <= 0) {
-      //     time_slot = "evening 3pm-8pm";
-      //   } else if (differences.with8pm >= 0 && differences.with1159pm <= 0) {
-      //     time_slot = "night 8pm-12";
-      //   }
       time_group[time_slot] = isNaN(time_group[time_slot])
         ? 1
         : time_group[time_slot] + 1;
@@ -94,9 +66,20 @@ const get_quickest_solution = () => {
     .map(({ name, day_time_diff }) => `${name} (${day_time_diff / 1000} sec)`);
 };
 
+const get_winner = () => {
+  const query = jsonata(
+    `members.*{\`id\`:{"name":name,"score":local_score}}`
+  ).evaluate(data);
+  const winner = Object.values(query).sort(function (a, b) {
+    return b["score"] - a["score"];
+  })[0];
+  return `${winner.name} (${winner.score})`;
+};
+
 export {
   get_global_score_data,
   get_part1_times,
   get_day_group,
   get_quickest_solution,
+  get_winner,
 };

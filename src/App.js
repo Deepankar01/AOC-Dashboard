@@ -2,6 +2,7 @@ import {
   GlobalScore,
   ScoringTimeDaySlotBubble,
   QuickestSolutioner,
+  Winner,
 } from "./Charts";
 import * as utils from "./utils";
 import styled from "styled-components";
@@ -25,7 +26,7 @@ const ChartContainer = styled.div`
 
 const ChartContainerBox = styled.div`
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 33.33% 50% 16.67%;
   padding-top: 1rem;
 `;
 
@@ -41,6 +42,7 @@ function App() {
           <ChartContainerBox>
             <GlobalScore data={utils.get_global_score_data()} />
             <QuickestSolutioner data={utils.get_quickest_solution()} />
+            <Winner data={utils.get_winner()} />
           </ChartContainerBox>
         </ChartContainer>
         {/* <ScoringTime data={utils.get_part1_times()} />

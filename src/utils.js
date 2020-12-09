@@ -73,4 +73,30 @@ const get_part1_times = () => {
   return x_y_split;
 };
 
-export { get_global_score_data, get_part1_times, get_day_group };
+const get_quickest_solution = () => {
+  const query = jsonata(`
+  members.*{\`id\`:{"name":name,"day_time_diff":$sort($map(completion_day_level,function($v, $i, $a){
+    $map($keys($v), function($va,$ia,$aa){ 
+                $number($pad($lookup($lookup($lookup(completion_day_level,$va),"2"),"get_star_ts"),13,'0'))-
+                $number($pad($lookup($lookup($lookup(completion_day_level,$va),"1"),"get_star_ts"),13,'0'))
+                
+                    
+        })
+        
+    }
+    ))[0]}}
+  `).evaluate(data);
+  return Object.values(query)
+    .sort(function (a, b) {
+      return a["day_time_diff"] - b["day_time_diff"];
+    })
+    .slice(0, 5)
+    .map(({ name, day_time_diff }) => `${name} (${day_time_diff / 1000} sec)`);
+};
+
+export {
+  get_global_score_data,
+  get_part1_times,
+  get_day_group,
+  get_quickest_solution,
+};

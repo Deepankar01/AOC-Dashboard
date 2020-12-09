@@ -35,7 +35,6 @@ const Part1ScoreTimes = ({ data }) => {
       ],
     },
   };
-  // console.log(data);
   return <Bubble data={chartData} options={options} />;
 };
 

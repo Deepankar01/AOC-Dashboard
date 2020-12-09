@@ -20,7 +20,6 @@ function random_rgba() {
 }
 
 const ScoringTimeDaySlot = ({ data }) => {
-  // console.log("datata", data);
   const datasets = [];
   for (const [key, value] of Object.entries(data)) {
     const rand_color = random_rgba();
@@ -60,7 +59,6 @@ const ScoringTimeDaySlot = ({ data }) => {
     //   ],
     // },
   };
-  // console.log(data);
   return <Radar data={chartData} options={options} />;
 };
 

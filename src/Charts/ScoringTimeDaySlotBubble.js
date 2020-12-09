@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Bubble } from "react-chartjs-2";
 
 function random_rgba() {
-  var o = Math.round,
+  const o = Math.round,
     r = Math.random,
     s = 255;
   return (
@@ -36,14 +36,21 @@ const ScoringTimeDaySlotBubble = ({ data }) => {
       data: datum,
       backgroundColor: rand_color,
       borderColor: rand_color,
+      lineTension: 0.1,
+      pointHoverBorderWidth: 2,
+      pointRadius: 1,
+      pointHitRadius: 10,
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      borderJoinStyle: "miter",
+      borderCapStyle: "butt",
+      borderDash: [],
+      borderDashOffset: 0.0,
     };
     datasets.push(dataset);
   }
   console.log(datasets[0]);
   const chartData = {
-    // labels: Array(24)
-    //   .fill(0)
-    //   .map((_, i) => i + 1),
     datasets: datasets,
   };
 

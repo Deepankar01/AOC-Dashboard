@@ -14,11 +14,10 @@ const Score = styled.div`
 `;
 
 const Winner = ({ data }) => {
-  console.log(data);
   return (
     <Heading>
       <div>
-        Weekly Winnner{" "}
+        Winnner
         <sup>
           <code>local_score</code>
         </sup>

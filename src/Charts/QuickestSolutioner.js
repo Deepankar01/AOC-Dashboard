@@ -24,7 +24,6 @@ const Score = styled.ol`
 `;
 
 const QuickestSolutioner = ({ data }) => {
-  console.log(data);
   return (
     <Heading>
       <div>

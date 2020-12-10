@@ -48,10 +48,7 @@ const get_quickest_solution = () => {
     $map($keys($v), function($va,$ia,$aa){ 
                 $number($pad($lookup($lookup($lookup(completion_day_level,$va),"2"),"get_star_ts"),13,'0'))-
                 $number($pad($lookup($lookup($lookup(completion_day_level,$va),"1"),"get_star_ts"),13,'0'))
-                
-                    
         })
-        
     }
     ))[0]}}
   `).evaluate(data);

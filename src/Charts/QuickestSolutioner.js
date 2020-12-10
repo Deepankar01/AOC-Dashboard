@@ -10,6 +10,7 @@ const Heading = styled.div`
 `;
 
 const Score = styled.ol`
+  padding-inline-start: 1.2rem;
   font-size: 0.8rem;
   -moz-column-count: 4;
   -moz-column-gap: 20px;
@@ -27,7 +28,10 @@ const QuickestSolutioner = ({ data }) => {
   return (
     <Heading>
       <div>
-        Quickest solutioner{" "}
+        Quick{" "}
+        <a href="https://www.urbandictionary.com/define.php?term=Solutioner">
+          solutioner
+        </a>
         <sup>
           <code>Part2-Part1</code>
         </sup>

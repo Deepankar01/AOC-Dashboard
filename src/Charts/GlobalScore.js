@@ -12,7 +12,7 @@ const Score = styled.div`
 const GlobalScore = ({ data }) => {
   return (
     <Heading>
-      <div>Anyone with globalScore</div>
+      <div>Anyone with global score</div>
       <Score>{typeof data == "number" ? data : data.length} persons</Score>
     </Heading>
   );

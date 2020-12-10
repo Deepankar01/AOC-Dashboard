@@ -45,10 +45,6 @@ function App() {
             <Winner data={utils.get_winner()} />
           </ChartContainerBox>
         </ChartContainer>
-        {/* <ScoringTime data={utils.get_part1_times()} />
-        <ScoringTimeDaySlot
-          data={utils.get_day_group(utils.get_part1_times())}
-        /> */}
         <ChartContainer
           style={{ position: "relative", height: "40vh", width: "80vw" }}
         >

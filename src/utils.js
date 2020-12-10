@@ -31,12 +31,9 @@ const get_day_group = (x_y_split) => {
 
 const get_part1_times = () => {
   const query_response = jsonata(
-    '$map(members.*.completion_day_level.*."1".get_star_ts, function($v, $i, $a) { $fromMillis($number($pad($v, 13,"0")),"[Y0001]-[M01]-[D01]T[H01]:[m01]:[s01]","+0530") })'
+    '$map(members.*.completion_day_level.*.*.get_star_ts, function($v, $i, $a) { $fromMillis($number($pad($v, 13,"0")),"[Y0001]-[M01]-[D01]T[H01]:[m01]:[s01]","+0530") })'
   ).evaluate(data);
-  const query_response2 = jsonata(
-    '$map(members.*.completion_day_level.*."2".get_star_ts, function($v, $i, $a) { $fromMillis($number($pad($v, 13,"0")),"[Y0001]-[M01]-[D01]T[H01]:[m01]:[s01]","+0530") })'
-  ).evaluate(data);
-  const x_y_split = [...query_response, ...query_response2].map((i) => {
+  const x_y_split = query_response.map((i) => {
     const d = i.split("T")[0];
     const t = i.split("T")[1];
     return { x: d, y: t };

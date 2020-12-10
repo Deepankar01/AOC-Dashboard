@@ -18,7 +18,7 @@ const Winner = ({ data }) => {
   return (
     <Heading>
       <div>
-        Winnner{" "}
+        Weekly Winnner{" "}
         <sup>
           <code>local_score</code>
         </sup>

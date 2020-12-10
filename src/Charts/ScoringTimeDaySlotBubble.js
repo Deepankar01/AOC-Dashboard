@@ -26,8 +26,8 @@ const ScoringTimeDaySlotBubble = ({ data }) => {
     let datum = [];
     for (const [time, occurance] of Object.entries(value)) {
       datum.push({
-        x: key,
-        y: `${parseInt(time)}:00:00`,
+        y: key,
+        x: `${parseInt(time)}:00:00`,
         r: occurance,
       });
     }
@@ -56,7 +56,7 @@ const ScoringTimeDaySlotBubble = ({ data }) => {
   const options = {
     aspectRatio: 1,
     scales: {
-      xAxes: [
+      yAxes: [
         {
           type: "time",
           time: {
@@ -65,7 +65,7 @@ const ScoringTimeDaySlotBubble = ({ data }) => {
           },
         },
       ],
-      yAxes: [
+      xAxes: [
         {
           type: "time",
           time: {

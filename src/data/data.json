@@ -3,7 +3,6 @@
     "members": {
         "71656": {
             "name": "Brijesh Pant",
-            "global_score": 0,
             "last_star_ts": "1607954462",
             "stars": 26,
             "completion_day_level": {
@@ -112,11 +111,14 @@
                     }
                 }
             },
+            "id": "71656",
             "local_score": 957,
-            "id": "71656"
+            "global_score": 0
         },
         "241026": {
+            "global_score": 0,
             "local_score": 1594,
+            "id": "241026",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -239,24 +241,26 @@
                     }
                 }
             },
-            "id": "241026",
-            "stars": 30,
+            "name": "Laurence de Jong",
             "last_star_ts": "1608011040",
-            "global_score": 0,
-            "name": "Laurence de Jong"
+            "stars": 30
         },
         "245544": {
-            "stars": 0,
-            "last_star_ts": 0,
-            "id": "245544",
             "completion_day_level": {},
-            "local_score": 0,
+            "id": "245544",
             "global_score": 0,
+            "local_score": 0,
+            "last_star_ts": 0,
+            "stars": 0,
             "name": "awkshwayrd"
         },
         "245608": {
+            "last_star_ts": "1608018222",
             "name": "Deepankar Agrawal",
+            "stars": 30,
+            "id": "245608",
             "global_score": 0,
+            "local_score": 1191,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -378,15 +382,12 @@
                         "get_star_ts": "1608017959"
                     }
                 }
-            },
-            "id": "245608",
-            "local_score": 1191,
-            "last_star_ts": "1608018222",
-            "stars": 30
+            }
         },
         "970978": {
-            "last_star_ts": "1608010427",
-            "stars": 30,
+            "local_score": 1586,
+            "global_score": 0,
+            "id": "970978",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -509,25 +510,23 @@
                     }
                 }
             },
-            "id": "970978",
-            "local_score": 1586,
-            "global_score": 0,
-            "name": "Rahul Sharma"
+            "last_star_ts": "1608010427",
+            "name": "Rahul Sharma",
+            "stars": 30
         },
         "971233": {
-            "name": "mandeepmehra",
-            "global_score": 0,
-            "completion_day_level": {},
             "local_score": 0,
+            "global_score": 0,
             "id": "971233",
+            "completion_day_level": {},
+            "stars": 0,
             "last_star_ts": 0,
-            "stars": 0
+            "name": "mandeepmehra"
         },
         "971234": {
             "global_score": 0,
-            "name": "Amit Verma",
-            "last_star_ts": "1607936463",
-            "stars": 28,
+            "local_score": 1377,
+            "id": "971234",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -640,14 +639,21 @@
                     "2": {
                         "get_star_ts": "1607936463"
                     }
+                },
+                "15": {
+                    "1": {
+                        "get_star_ts": "1608021442"
+                    },
+                    "2": {
+                        "get_star_ts": "1608021452"
+                    }
                 }
             },
-            "id": "971234",
-            "local_score": 1282
+            "name": "Amit Verma",
+            "last_star_ts": "1608021452",
+            "stars": 30
         },
         "971235": {
-            "stars": 11,
-            "last_star_ts": "1607600906",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -696,16 +702,16 @@
                 }
             },
             "id": "971235",
-            "local_score": 338,
             "global_score": 0,
-            "name": "xi1659-adityasharma"
+            "local_score": 338,
+            "name": "xi1659-adityasharma",
+            "last_star_ts": "1607600906",
+            "stars": 11
         },
         "971241": {
-            "global_score": 0,
-            "name": "Sailesh Kalakoti",
-            "stars": 30,
-            "last_star_ts": "1608010489",
+            "id": "971241",
             "local_score": 1612,
+            "global_score": 0,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -828,11 +834,11 @@
                     }
                 }
             },
-            "id": "971241"
+            "last_star_ts": "1608010489",
+            "name": "Sailesh Kalakoti",
+            "stars": 30
         },
         "971280": {
-            "global_score": 0,
-            "name": "Eshaan Mangal",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -955,15 +961,17 @@
                     }
                 }
             },
+            "global_score": 0,
             "local_score": 1473,
             "id": "971280",
             "last_star_ts": "1608010133",
-            "stars": 30
+            "stars": 30,
+            "name": "Eshaan Mangal"
         },
         "971295": {
-            "stars": 24,
-            "last_star_ts": "1607842657",
+            "id": "971295",
             "local_score": 1034,
+            "global_score": 0,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1062,15 +1070,14 @@
                     }
                 }
             },
-            "id": "971295",
-            "global_score": 0,
-            "name": "Rituja Dixit"
+            "last_star_ts": "1607842657",
+            "name": "Rituja Dixit",
+            "stars": 24
         },
         "971336": {
-            "name": "supr8sung",
             "global_score": 0,
-            "stars": 12,
-            "last_star_ts": "1607416879",
+            "local_score": 450,
+            "id": "971336",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1123,24 +1130,20 @@
                     }
                 }
             },
-            "local_score": 450,
-            "id": "971336"
+            "last_star_ts": "1607416879",
+            "name": "supr8sung",
+            "stars": 12
         },
         "971396": {
-            "stars": 0,
-            "last_star_ts": 0,
-            "completion_day_level": {},
-            "local_score": 0,
-            "id": "971396",
             "name": "MacsRepo",
+            "last_star_ts": 0,
+            "stars": 0,
+            "completion_day_level": {},
+            "id": "971396",
+            "local_score": 0,
             "global_score": 0
         },
         "971404": {
-            "global_score": 0,
-            "name": "Kishanjay",
-            "last_star_ts": "1608012802",
-            "stars": 30,
-            "local_score": 1681,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1263,10 +1266,16 @@
                     }
                 }
             },
-            "id": "971404"
+            "global_score": 0,
+            "local_score": 1681,
+            "id": "971404",
+            "last_star_ts": "1608012802",
+            "name": "Kishanjay",
+            "stars": 30
         },
         "971417": {
-            "global_score": 0,
+            "last_star_ts": "1607236070",
+            "stars": 12,
             "name": "Shubham Kale",
             "completion_day_level": {
                 "1": {
@@ -1318,15 +1327,14 @@
                     }
                 }
             },
-            "local_score": 403,
             "id": "971417",
-            "last_star_ts": "1607236070",
-            "stars": 12
+            "global_score": 0,
+            "local_score": 403
         },
         "971423": {
-            "last_star_ts": "1608013804",
-            "stars": 28,
-            "id": "971423",
+            "last_star_ts": "1608018926",
+            "name": "Ujla Garg",
+            "stars": 29,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1440,16 +1448,23 @@
                 "15": {
                     "1": {
                         "get_star_ts": "1608013804"
+                    },
+                    "2": {
+                        "get_star_ts": "1608018926"
                     }
                 }
             },
-            "local_score": 1330,
+            "local_score": 1379,
             "global_score": 0,
-            "name": "Ujla Garg"
+            "id": "971423"
         },
         "971765": {
-            "stars": 17,
+            "name": "Abhishek Singhal",
             "last_star_ts": "1607589954",
+            "stars": 17,
+            "id": "971765",
+            "local_score": 570,
+            "global_score": 0,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1520,15 +1535,12 @@
                         "get_star_ts": "1607589954"
                     }
                 }
-            },
-            "id": "971765",
-            "local_score": 570,
-            "global_score": 0,
-            "name": "Abhishek Singhal"
+            }
         },
         "975357": {
-            "stars": 25,
-            "last_star_ts": "1607863266",
+            "local_score": 1052,
+            "global_score": 0,
+            "id": "975357",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1632,14 +1644,14 @@
                     }
                 }
             },
-            "local_score": 1052,
-            "id": "975357",
-            "global_score": 0,
-            "name": "Mohit Kanwar"
+            "last_star_ts": "1607863266",
+            "name": "Mohit Kanwar",
+            "stars": 25
         },
         "975927": {
-            "stars": 28,
-            "last_star_ts": "1607936801",
+            "local_score": 1232,
+            "global_score": 0,
+            "id": "975927",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -1754,14 +1766,13 @@
                     }
                 }
             },
-            "local_score": 1232,
-            "id": "975927",
-            "global_score": 0,
+            "stars": 28,
+            "last_star_ts": "1607936801",
             "name": "Sugandha Sapra"
         },
         "977570": {
-            "last_star_ts": "1608010768",
-            "stars": 30,
+            "global_score": 0,
+            "local_score": 1532,
             "id": "977570",
             "completion_day_level": {
                 "1": {
@@ -1885,11 +1896,17 @@
                     }
                 }
             },
-            "local_score": 1532,
-            "global_score": 0,
+            "stars": 30,
+            "last_star_ts": "1608010768",
             "name": "Himank Batra"
         },
         "977780": {
+            "last_star_ts": "1606903285",
+            "name": "Krupesh Anadkat",
+            "stars": 2,
+            "id": "977780",
+            "global_score": 0,
+            "local_score": 71,
             "completion_day_level": {
                 "2": {
                     "1": {
@@ -1899,13 +1916,7 @@
                         "get_star_ts": "1606903285"
                     }
                 }
-            },
-            "id": "977780",
-            "local_score": 71,
-            "stars": 2,
-            "last_star_ts": "1606903285",
-            "name": "Krupesh Anadkat",
-            "global_score": 0
+            }
         },
         "978633": {
             "completion_day_level": {
@@ -1919,15 +1930,18 @@
                 }
             },
             "local_score": 0,
-            "id": "978633",
-            "last_star_ts": "1606830368",
-            "stars": 2,
             "global_score": 0,
+            "id": "978633",
+            "stars": 2,
+            "last_star_ts": "1606830368",
             "name": "gourav108"
         },
         "979549": {
-            "stars": 18,
             "last_star_ts": "1607491800",
+            "stars": 18,
+            "name": "Shekhar Gulati",
+            "id": "979549",
+            "global_score": 0,
             "local_score": 791,
             "completion_day_level": {
                 "1": {
@@ -2002,14 +2016,15 @@
                         "get_star_ts": "1607491800"
                     }
                 }
-            },
-            "id": "979549",
-            "global_score": 0,
-            "name": "Shekhar Gulati"
+            }
         },
         "981710": {
-            "global_score": 0,
             "name": "Madhukar Tryambake",
+            "last_star_ts": "1607063633",
+            "stars": 6,
+            "global_score": 0,
+            "local_score": 208,
+            "id": "981710",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2037,16 +2052,9 @@
                         "get_star_ts": "1607063633"
                     }
                 }
-            },
-            "id": "981710",
-            "local_score": 208,
-            "last_star_ts": "1607063633",
-            "stars": 6
+            }
         },
         "995043": {
-            "stars": 2,
-            "last_star_ts": "1606803341",
-            "id": "995043",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2057,21 +2065,25 @@
                     }
                 }
             },
+            "id": "995043",
             "local_score": 0,
+            "global_score": 0,
             "name": "XI1568-raghav",
-            "global_score": 0
+            "last_star_ts": "1606803341",
+            "stars": 2
         },
         "996032": {
+            "id": "996032",
+            "local_score": 0,
+            "global_score": 0,
+            "completion_day_level": {},
             "stars": 0,
             "last_star_ts": 0,
-            "completion_day_level": {},
-            "local_score": 0,
-            "id": "996032",
-            "global_score": 0,
             "name": "ritesh khanna"
         },
         "996033": {
-            "global_score": 0,
+            "stars": 15,
+            "last_star_ts": "1607565016",
             "name": "Harshit Kandhway",
             "completion_day_level": {
                 "1": {
@@ -2138,13 +2150,11 @@
                     }
                 }
             },
-            "id": "996033",
+            "global_score": 0,
             "local_score": 453,
-            "last_star_ts": "1607565016",
-            "stars": 15
+            "id": "996033"
         },
         "996999": {
-            "local_score": 219,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2182,14 +2192,19 @@
                 }
             },
             "id": "996999",
+            "global_score": 0,
+            "local_score": 219,
             "stars": 8,
             "last_star_ts": "1607663268",
-            "name": "xebia-utkarsh",
-            "global_score": 0
+            "name": "xebia-utkarsh"
         },
         "997704": {
+            "stars": 30,
+            "last_star_ts": "1608011531",
             "name": "Amitesh Sinha",
+            "local_score": 1511,
             "global_score": 0,
+            "id": "997704",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2311,13 +2326,12 @@
                         "get_star_ts": "1608011531"
                     }
                 }
-            },
-            "local_score": 1511,
-            "id": "997704",
-            "stars": 30,
-            "last_star_ts": "1608011531"
+            }
         },
         "997740": {
+            "id": "997740",
+            "global_score": 0,
+            "local_score": 951,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2400,18 +2414,11 @@
                     }
                 }
             },
-            "local_score": 951,
-            "id": "997740",
             "last_star_ts": "1607582845",
-            "stars": 20,
             "name": "Santoshkumar Gajawada",
-            "global_score": 0
+            "stars": 20
         },
         "997759": {
-            "name": "Badhmanaban M",
-            "global_score": 0,
-            "last_star_ts": "1607602580",
-            "stars": 20,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2495,14 +2502,16 @@
                 }
             },
             "local_score": 864,
-            "id": "997759"
+            "global_score": 0,
+            "id": "997759",
+            "stars": 20,
+            "last_star_ts": "1607602580",
+            "name": "Badhmanaban M"
         },
         "999715": {
-            "global_score": 0,
             "name": "prem choudhary",
             "last_star_ts": "1607166639",
             "stars": 10,
-            "id": "999715",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2545,20 +2554,26 @@
                     }
                 }
             },
-            "local_score": 375
+            "id": "999715",
+            "local_score": 375,
+            "global_score": 0
         },
         "1000324": {
-            "global_score": 0,
-            "name": "Shahab Akhtar Rabbani",
-            "completion_day_level": {},
             "local_score": 0,
+            "global_score": 0,
             "id": "1000324",
-            "stars": 0,
-            "last_star_ts": 0
+            "completion_day_level": {},
+            "name": "Shahab Akhtar Rabbani",
+            "last_star_ts": 0,
+            "stars": 0
         },
         "1000372": {
+            "last_star_ts": "1607157139",
+            "stars": 6,
             "name": "Samuel Manoj",
+            "local_score": 146,
             "global_score": 0,
+            "id": "1000372",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2584,22 +2599,21 @@
                         "get_star_ts": "1607157139"
                     }
                 }
-            },
-            "id": "1000372",
-            "local_score": 146,
-            "stars": 6,
-            "last_star_ts": "1607157139"
+            }
         },
         "1001578": {
-            "stars": 0,
             "last_star_ts": 0,
+            "name": "xi1311-amitkumar",
+            "stars": 0,
             "completion_day_level": {},
             "id": "1001578",
             "local_score": 0,
-            "global_score": 0,
-            "name": "xi1311-amitkumar"
+            "global_score": 0
         },
         "1002167": {
+            "stars": 2,
+            "last_star_ts": "1606825244",
+            "name": "Harmanpreet Bhatti",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2610,14 +2624,13 @@
                     }
                 }
             },
-            "local_score": 0,
-            "id": "1002167",
-            "stars": 2,
-            "last_star_ts": "1606825244",
             "global_score": 0,
-            "name": "Harmanpreet Bhatti"
+            "local_score": 0,
+            "id": "1002167"
         },
         "1005489": {
+            "local_score": 496,
+            "global_score": 0,
             "id": "1005489",
             "completion_day_level": {
                 "1": {
@@ -2685,18 +2698,14 @@
                     }
                 }
             },
-            "local_score": 496,
-            "stars": 16,
-            "last_star_ts": "1607422837",
             "name": "Sagay",
-            "global_score": 0
+            "last_star_ts": "1607422837",
+            "stars": 16
         },
         "1006376": {
-            "global_score": 0,
-            "name": "Ankit Arya",
             "stars": 30,
             "last_star_ts": "1608015099",
-            "id": "1006376",
+            "name": "Ankit Arya",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2819,11 +2828,14 @@
                     }
                 }
             },
-            "local_score": 1462
+            "local_score": 1462,
+            "global_score": 0,
+            "id": "1006376"
         },
         "1018093": {
             "name": "CUManiar",
-            "global_score": 0,
+            "last_star_ts": "1608013367",
+            "stars": 30,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2946,12 +2958,14 @@
                     }
                 }
             },
+            "global_score": 0,
             "local_score": 1451,
-            "id": "1018093",
-            "last_star_ts": "1608013367",
-            "stars": 30
+            "id": "1018093"
         },
         "1025004": {
+            "name": "arunthakur15",
+            "last_star_ts": "1607085873",
+            "stars": 2,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -2964,14 +2978,11 @@
             },
             "id": "1025004",
             "local_score": 0,
-            "last_star_ts": "1607085873",
-            "stars": 2,
-            "name": "arunthakur15",
             "global_score": 0
         },
         "1033583": {
+            "local_score": 1043,
             "global_score": 0,
-            "name": "xi1951-jayeshkhasatiya",
             "id": "1033583",
             "completion_day_level": {
                 "1": {
@@ -3077,17 +3088,21 @@
                     "2": {
                         "get_star_ts": "1607942764"
                     }
+                },
+                "15": {
+                    "1": {
+                        "get_star_ts": "1608019180"
+                    }
                 }
             },
-            "local_score": 995,
-            "stars": 26,
-            "last_star_ts": "1607942764"
+            "name": "xi1951-jayeshkhasatiya",
+            "last_star_ts": "1608019180",
+            "stars": 27
         },
         "1085850": {
-            "name": "XI1874-sohrabshah",
             "global_score": 0,
-            "stars": 29,
-            "last_star_ts": "1608016202",
+            "local_score": 1277,
+            "id": "1085850",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3204,13 +3219,20 @@
                 "15": {
                     "1": {
                         "get_star_ts": "1608016202"
+                    },
+                    "2": {
+                        "get_star_ts": "1608018720"
                     }
                 }
             },
-            "id": "1085850",
-            "local_score": 1227
+            "last_star_ts": "1608018720",
+            "stars": 30,
+            "name": "XI1874-sohrabshah"
         },
         "1085997": {
+            "id": "1085997",
+            "global_score": 0,
+            "local_score": 558,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3285,14 +3307,14 @@
                     }
                 }
             },
-            "id": "1085997",
-            "local_score": 558,
-            "last_star_ts": "1607862867",
             "stars": 18,
-            "name": "ANKUR BHARDWAJ",
-            "global_score": 0
+            "last_star_ts": "1607862867",
+            "name": "ANKUR BHARDWAJ"
         },
         "1087921": {
+            "global_score": 0,
+            "local_score": 90,
+            "id": "1087921",
             "completion_day_level": {
                 "2": {
                     "1": {
@@ -3303,19 +3325,11 @@
                     }
                 }
             },
-            "local_score": 90,
-            "id": "1087921",
-            "stars": 2,
             "last_star_ts": "1606893584",
-            "global_score": 0,
-            "name": "Deepak Bansal"
+            "name": "Deepak Bansal",
+            "stars": 2
         },
         "1088864": {
-            "name": "Keerthi Gp97",
-            "global_score": 0,
-            "last_star_ts": "1606997548",
-            "stars": 6,
-            "local_score": 139,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3342,9 +3356,19 @@
                     }
                 }
             },
-            "id": "1088864"
+            "global_score": 0,
+            "local_score": 139,
+            "id": "1088864",
+            "name": "Keerthi Gp97",
+            "last_star_ts": "1606997548",
+            "stars": 6
         },
         "1089889": {
+            "last_star_ts": "1608021024",
+            "name": "Maneet Kaur",
+            "stars": 25,
+            "local_score": 981,
+            "global_score": 0,
             "id": "1089889",
             "completion_day_level": {
                 "1": {
@@ -3427,6 +3451,11 @@
                         "get_star_ts": "1607595838"
                     }
                 },
+                "13": {
+                    "1": {
+                        "get_star_ts": "1608021024"
+                    }
+                },
                 "14": {
                     "1": {
                         "get_star_ts": "1607949367"
@@ -3443,19 +3472,12 @@
                         "get_star_ts": "1608018226"
                     }
                 }
-            },
-            "local_score": 939,
-            "stars": 24,
-            "last_star_ts": "1608018226",
-            "name": "Maneet Kaur",
-            "global_score": 0
+            }
         },
         "1092952": {
-            "global_score": 0,
-            "name": "chandru biradar",
-            "stars": 2,
-            "last_star_ts": "1606991626",
+            "id": "1092952",
             "local_score": 0,
+            "global_score": 0,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3466,11 +3488,14 @@
                     }
                 }
             },
-            "id": "1092952"
+            "last_star_ts": "1606991626",
+            "stars": 2,
+            "name": "chandru biradar"
         },
         "1099424": {
-            "name": "Rohit Jain",
+            "local_score": 0,
             "global_score": 0,
+            "id": "1099424",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3481,24 +3506,20 @@
                     }
                 }
             },
-            "local_score": 0,
-            "id": "1099424",
             "last_star_ts": "1607189401",
+            "name": "Rohit Jain",
             "stars": 2
         },
         "1106973": {
-            "global_score": 0,
-            "name": "Aman Singla",
-            "id": "1106973",
             "completion_day_level": {},
             "local_score": 0,
+            "global_score": 0,
+            "id": "1106973",
             "last_star_ts": 0,
-            "stars": 0
+            "stars": 0,
+            "name": "Aman Singla"
         },
         "1130575": {
-            "global_score": 0,
-            "name": "Nikita Mittal",
-            "id": "1130575",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3509,24 +3530,26 @@
                     }
                 }
             },
+            "id": "1130575",
+            "global_score": 0,
             "local_score": 0,
             "stars": 2,
-            "last_star_ts": "1606984074"
+            "last_star_ts": "1606984074",
+            "name": "Nikita Mittal"
         },
         "1134186": {
-            "last_star_ts": 0,
-            "stars": 0,
-            "local_score": 0,
-            "completion_day_level": {},
             "id": "1134186",
             "global_score": 0,
+            "local_score": 0,
+            "completion_day_level": {},
+            "last_star_ts": 0,
+            "stars": 0,
             "name": "Nikhil Pandey"
         },
         "1134921": {
+            "id": "1134921",
+            "local_score": 319,
             "global_score": 0,
-            "name": "dikshaChauhanXebia",
-            "last_star_ts": "1607257055",
-            "stars": 12,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3577,24 +3600,20 @@
                     }
                 }
             },
-            "id": "1134921",
-            "local_score": 319
+            "name": "dikshaChauhanXebia",
+            "last_star_ts": "1607257055",
+            "stars": 12
         },
         "1145533": {
-            "global_score": 0,
-            "name": "mehta-shubham",
             "stars": 0,
             "last_star_ts": 0,
+            "name": "mehta-shubham",
+            "id": "1145533",
             "local_score": 0,
-            "completion_day_level": {},
-            "id": "1145533"
+            "global_score": 0,
+            "completion_day_level": {}
         },
         "1159786": {
-            "name": "Balmuri Karthik rao",
-            "global_score": 0,
-            "last_star_ts": "1607509938",
-            "stars": 12,
-            "local_score": 318,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3645,14 +3664,14 @@
                     }
                 }
             },
-            "id": "1159786"
+            "global_score": 0,
+            "local_score": 318,
+            "id": "1159786",
+            "last_star_ts": "1607509938",
+            "name": "Balmuri Karthik rao",
+            "stars": 12
         },
         "1168010": {
-            "name": "XI1687-kapilmittal",
-            "global_score": 0,
-            "last_star_ts": "1607957831",
-            "stars": 26,
-            "local_score": 1035,
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3759,12 +3778,23 @@
                     "2": {
                         "get_star_ts": "1607957831"
                     }
+                },
+                "15": {
+                    "1": {
+                        "get_star_ts": "1608024472"
+                    }
                 }
             },
-            "id": "1168010"
+            "id": "1168010",
+            "global_score": 0,
+            "local_score": 1081,
+            "name": "XI1687-kapilmittal",
+            "last_star_ts": "1608024472",
+            "stars": 27
         },
         "1192277": {
-            "global_score": 0,
+            "last_star_ts": "1607260107",
+            "stars": 4,
             "name": "Koustubh Shrivastava",
             "completion_day_level": {
                 "1": {
@@ -3784,24 +3814,20 @@
                     }
                 }
             },
-            "local_score": 48,
             "id": "1192277",
-            "last_star_ts": "1607260107",
-            "stars": 4
+            "global_score": 0,
+            "local_score": 48
         },
         "1199957": {
-            "last_star_ts": 0,
-            "stars": 0,
-            "local_score": 0,
             "completion_day_level": {},
             "id": "1199957",
-            "name": null,
-            "global_score": 0
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0,
+            "stars": 0,
+            "name": null
         },
         "1213783": {
-            "name": "Rahul Lamba",
-            "global_score": 0,
-            "id": "1213783",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3820,13 +3846,17 @@
                     }
                 }
             },
+            "global_score": 0,
             "local_score": 45,
+            "id": "1213783",
+            "stars": 4,
             "last_star_ts": "1607359396",
-            "stars": 4
+            "name": "Rahul Lamba"
         },
         "1223476": {
-            "stars": 2,
-            "last_star_ts": "1607366700",
+            "local_score": 0,
+            "global_score": 0,
+            "id": "1223476",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -3837,28 +3867,27 @@
                     }
                 }
             },
-            "local_score": 0,
-            "id": "1223476",
-            "name": "Libin Mathew",
-            "global_score": 0
+            "last_star_ts": "1607366700",
+            "stars": 2,
+            "name": "Libin Mathew"
         },
         "1243013": {
-            "global_score": 0,
-            "name": "Munendra Gangwar",
-            "last_star_ts": 0,
-            "stars": 0,
             "id": "1243013",
+            "global_score": 0,
+            "local_score": 0,
             "completion_day_level": {},
-            "local_score": 0
+            "stars": 0,
+            "last_star_ts": 0,
+            "name": "Munendra Gangwar"
         },
         "1243340": {
-            "name": null,
-            "global_score": 0,
-            "last_star_ts": 0,
-            "stars": 0,
             "completion_day_level": {},
+            "global_score": 0,
             "local_score": 0,
-            "id": "1243340"
+            "id": "1243340",
+            "name": null,
+            "last_star_ts": 0,
+            "stars": 0
         }
     },
     "event": "2020"
